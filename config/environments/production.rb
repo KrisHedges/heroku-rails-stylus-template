@@ -14,7 +14,7 @@ HerokuStylusSample::Application.configure do
   # Compress JavaScripts and CSS
   config.assets.js_compressor  = :uglifier
   config.assets.css_compressor = :yui
-  config.assets.precompile = true
+
   # Defaults to Rails.root.join("public/assets")
   # config.assets.manifest = YOUR_PATH
 
