@@ -1,0 +1,2 @@
+module StyluspageHelper
+end
