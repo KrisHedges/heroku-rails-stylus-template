@@ -51,7 +51,7 @@ module HerokuStylusSample
     # config.active_record.whitelist_attributes = true
 
     # Enable the asset pipeline
-    config.assets.precompile += ['csspage/cssview', 'styluspage/styusview']
+    config.assets.precompile += ['*.css', '*.styl']
     config.assets.enabled = true
     config.assets.initialize_on_precompile = true
   end
