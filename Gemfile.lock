@@ -1,3 +1,11 @@
+GIT
+  remote: git://github.com/lucasmazza/ruby-stylus.git
+  revision: 6bbcd13d88cbbf8a7e8450a716bb5cba40185113
+  specs:
+    stylus (0.4.2)
+      execjs
+      stylus-source
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -106,9 +114,6 @@ GEM
       rack (~> 1.0)
       tilt (~> 1.1, != 1.3.0)
     sqlite3 (1.3.5)
-    stylus (0.4.2)
-      execjs
-      stylus-source
     stylus-source (0.24.0)
     thin (1.3.1)
       daemons (>= 1.0.9)
@@ -137,7 +142,7 @@ DEPENDENCIES
   pg
   rails (= 3.2.1)
   sqlite3
-  stylus (>= 0.4.2)
+  stylus!
   thin
   turn
   uglifier (>= 1.0.3)

@@ -4,7 +4,7 @@ gem 'rails', '3.2.1'
 
 # Asset template engines
 group :assets do
-  gem 'stylus', '>=0.4.2'
+  gem 'stylus', :git => 'git://github.com/lucasmazza/ruby-stylus.git'
   gem 'uglifier', '>= 1.0.3'
 end
 
